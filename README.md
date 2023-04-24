@@ -15,19 +15,26 @@ Exemple de l'affichage généré :
         Process         16.0.x  101     24/06/2013      02/03/2023      117    10
         projectbudget   17.0.x  51      14/05/2017      14/04/2023      72     8
         reStock         17.0.x  234     26/03/2014      27/03/2023      109    25
-X       RmindR          17.0.x  51      13/05/2016      01/07/2022      74     8
-X       StockMovR       17.0.x  6       19/01/2021      17/01/2022      12     5
 
 
-Nombre de modules avec version 15 : 2 
+
+Nombre de modules avec version 15 : 2
+
 Nombre de modules avec version 16 : 5 
+
 Nombre de modules avec version 17 : 30
+
 Nb modules dans l'année 2012 : 1      
+
 Nb modules dans l'année 2013 : 3      
+
 Nb modules dans l'année 2014 : 8      
+
 .../...
 Nb modules dans l'année 2021 : 3      
+
 Nb modules dans l'année 2022 : 3      
+
 Nb modules dans l'année 2023 : 1      
 
 Nombre de modules total: 37
