@@ -17,28 +17,16 @@ Exemple de l'affichage généré :
         reStock         17.0.x  234     26/03/2014      27/03/2023      109    25
 
 
-
 Nombre de modules avec version 15 : 2
-
 Nombre de modules avec version 16 : 5
-
 Nombre de modules avec version 17 : 30
-
-
 Nb modules dans l'année 2012 : 1
-
 Nb modules dans l'année 2013 : 3
-
 Nb modules dans l'année 2014 : 8
-
-.../...
-
-Nb modules dans l'année 2021 : 3
-
-Nb modules dans l'année 2022 : 3
-
-Nb modules dans l'année 2023 : 1
-
+../.. 
+Nb modules dans l'année 2017 : 4
+Nb modules dans l'année 2018 : 2
+Nb modules dans l'année 2019 : 3
 
 Nombre de modules total: 37
 Nombre de ventes total: xxxxx
