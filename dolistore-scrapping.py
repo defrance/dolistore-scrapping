@@ -76,14 +76,14 @@ for row in table.findAll('tr')[1:]:
 		LastVenteDate = LastVente.findAll("td")[3].text
 		dateLastVente = datetime.strptime(LastVenteDate, "%d/%m/%Y %H:%M:%S")
 		# Vérifier si la différence est supérieure à six mois
-		moduleName = separation[0]
+		moduleName = "\t"+ (separation[0] + (10 - len(separation[0]))*" ")
 		if (datetime.now() - dateLastVente) > timedelta(days=180):
-			moduleName = "\t" + separation[0]
+			moduleName = "X" + moduleName
 		nbMoisVente = (dateLastVente - dateFirstVente).days/30
 		ratioMens = 0
 		if nbMoisVente != 0:
 			ratioMens = int(nbVenteDolistore)/(nbMoisVente/12)
-		print (moduleName + " " + versionDolistore + " " + nbVenteDolistore + " " + FirstVenteDate + " " + LastVenteDate + " " + str(int(nbMoisVente)) + " " + str(int(ratioMens)) )
+		print (moduleName + "\t" + versionDolistore + "\t" + nbVenteDolistore + "\t" + FirstVenteDate[:10] + "\t" + LastVenteDate[:10] + "\t" + str(int(nbMoisVente)) + "\t" + str(int(ratioMens)) )
 
 
 # on affiche le nombre de module par version de dolibarr
