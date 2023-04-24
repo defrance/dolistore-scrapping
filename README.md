@@ -19,22 +19,14 @@ Exemple de l'affichage généré :
 
 
 Nombre de modules avec version 15 : 2
-
 Nombre de modules avec version 16 : 5 
-
 Nombre de modules avec version 17 : 30
-
 Nb modules dans l'année 2012 : 1      
-
 Nb modules dans l'année 2013 : 3      
-
 Nb modules dans l'année 2014 : 8      
-
 .../...
 Nb modules dans l'année 2021 : 3      
-
 Nb modules dans l'année 2022 : 3      
-
 Nb modules dans l'année 2023 : 1      
 
 Nombre de modules total: 37
