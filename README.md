@@ -3,20 +3,20 @@ Outil en python récupérant les versions de mes modules, le nombre de vente et 
 
 Exemple de l'affichage généré : 
 
-BomGenerator 17.0.x 5 05/12/2019 08:14:20 03/12/2022 06:18:39 36 1
-CoefPricR 17.0.x 119 23/06/2016 21:20:43 18/04/2023 08:52:06 82 17
-CustomLine 17.0.x 204 23/12/2014 15:01:50 04/04/2023 15:53:00 100 24
-.../...
-Localise 17.0.x 46 02/06/2016 13:37:29 15/03/2023 16:06:02 82 6
-Management 16.0.x 327 30/12/2014 00:18:23 27/10/2022 10:58:49 95 41
-        MatchR 17.0.x 8 13/09/2017 04:06:37 03/08/2020 21:45:11 35 2
-myBooking 17.0.x 52 21/02/2018 22:23:38 07/02/2023 11:58:41 60 10
-myBroadcast 17.0.x 10 09/04/2019 14:32:50 20/11/2022 20:49:48 44 2
-myClock 17.0.x 43 28/12/2015 09:44:37 24/02/2023 10:58:13 87 5
-... / ... 
-Portofolio 17.0.x 99 15/09/2015 16:24:45 07/02/2023 11:58:41 90 13
-Process 16.0.x 101 24/06/2013 12:07:08 02/03/2023 10:35:56 117 10
-projectbudget 17.0.x 51 14/05/2017 07:29:56 14/04/2023 15:52:39 72 8
+        myDiscount      17.0.x  16      15/06/2019      14/12/2022      42     4
+        MyDoliboard     16.0.x  177     01/12/2013      12/01/2023      110    19
+        myDolidash      16.0.0  3       02/10/2022      30/01/2023      4      9
+        myField         17.0.x  653     14/05/2015      22/04/2023      96     81
+        myList          17.0.x  533     20/09/2013      19/04/2023      116    54
+        myPrint         15.0.x  60      17/10/2016      14/04/2023      79     9
+        mySchedule      17.0.x  24      22/05/2021      01/04/2023      22     12
+        Periodic        15.0.x  25      24/10/2017      10/02/2023      64     4
+        Portofolio      17.0.x  99      15/09/2015      07/02/2023      90     13
+        Process         16.0.x  101     24/06/2013      02/03/2023      117    10
+        projectbudget   17.0.x  51      14/05/2017      14/04/2023      72     8
+        reStock         17.0.x  234     26/03/2014      27/03/2023      109    25
+X       RmindR          17.0.x  51      13/05/2016      01/07/2022      74     8
+X       StockMovR       17.0.x  6       19/01/2021      17/01/2022      12     5
 
 
 Nombre de modules avec version 15 : 2 
@@ -29,5 +29,6 @@ Nb modules dans l'année 2014 : 8
 Nb modules dans l'année 2021 : 3      
 Nb modules dans l'année 2022 : 3      
 Nb modules dans l'année 2023 : 1      
+
 Nombre de modules total: 37
 Nombre de ventes total: xxxxx
