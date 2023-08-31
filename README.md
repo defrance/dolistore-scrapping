@@ -12,11 +12,11 @@ le format du fichier est le suivant :
 
 Il récupère la version du module, la version mininum de dolibarr et la version maximum de dolibarr sous ce format
 
-NomModule        versionModule   versionMax      versionMin
+NomModule        versionModule        versionMax           versionMin
 
-Factory           3.2.2           17.0.x          12.0.x
+Factory           3.2.2                17.0.x               12.0.x
 
-Mydoliboard       3.9.0           16.0.x          10.0.x
+Mydoliboard       3.9.0                16.0.x               10.0.x
 
 
 
