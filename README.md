@@ -1,8 +1,19 @@
 # dolistore-scrapping
-Outil en python récupérant les versions de mes modules, le nombre de vente et la date de la dernière vente
+Outils en python récupérant les versions de mes modules, le nombre de vente et la date de la dernière vente
+Le premier permet de récupérer les versions des modules présents dans un fichier dolistore_modules_url.txt
+le format du fichier est le suivant :
+        Factory=https://www.dolistore.com/fr/gestion-produits-ou-services/386-Factory---la-GPAO-avanc--e-pour-Dolibarr.html
+        Mydoliboard=https://www.dolistore.com/fr/reporting-ou-recherche/316-MyDoliboard---tableaux-de-bord-personnalis--s.html
+
+il récupère la version du module, la version mininum de dolibarr et la version maximum de dolibarr sous ce format
+NomModule        versionModule   versionMax      versionMin
+Factory           3.2.2           17.0.x          12.0.x
+Mydoliboard       3.9.0           16.0.x          10.0.x
+
+
+
+Le second est pour les développeur
 il est probable que ce programme soit adaptable à toute les boutiques prestashop, mais je n'ai pas fait de test en ce sens (feedback welcome)
-
-
 Exemple de l'affichage généré : 
 
         myDiscount      17.0.x  16      15/06/2019      14/12/2022      42     4
