@@ -2,12 +2,13 @@
 # pip install mechanize
 # pip install bs4
 
-
-import mechanize, http
-from bs4 import BeautifulSoup
-
 import os
 import pathlib											
+
+import mechanize
+import http
+from bs4 import BeautifulSoup
+
 myFolderpath= pathlib.Path(__file__).parent.resolve()	
 os.chdir(myFolderpath)									
 
