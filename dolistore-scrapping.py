@@ -15,7 +15,8 @@
 
 
 from datetime import datetime, timedelta
-import mechanize, http
+import mechanize
+import http
 from bs4 import BeautifulSoup
 
 
@@ -25,7 +26,9 @@ br = mechanize.Browser()
 #br.set_cookiejar(cj)
 
 br.set_handle_robots(False)
-br.addheaders = [('User-agent', 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.1) Gecko/2008071615 Fedora/3.0.1-1.fc9 Firefox/3.0.1')]
+br.addheaders = [
+	('User-agent', 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.1) Gecko/2008071615 Fedora/3.0.1-1.fc9 Firefox/3.0.1')
+	]
 
 br.open("https://www.dolistore.com/fr/authentification")
 br.select_form(id="login_form")
@@ -89,7 +92,6 @@ for row in table.findAll('tr')[1:]:
 # on affiche le nombre de module par version de dolibarr
 for Version, nombre in dict(sorted(ArrayVersion.items())).items():
 	print ("Nombre de modules avec version "+str(Version)+" : "+str(nombre))
-
 
 for Version, nombre in dict(sorted(ArrayYearCreate.items())).items():
 	print ("Nb modules dans l'année "+str(Version)+" : "+str(nombre))
